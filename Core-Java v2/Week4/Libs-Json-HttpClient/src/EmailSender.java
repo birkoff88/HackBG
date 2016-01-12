@@ -15,13 +15,13 @@ public class EmailSender {
 
         // Create the email message
         MultiPartEmail email = new MultiPartEmail();
-        email.setAuthenticator(new DefaultAuthenticator("jivkotodorov94", "password"));
+        email.setAuthenticator(new DefaultAuthenticator("boris.petrov88", "SorryNqmaDaStane"));
         email.setSmtpPort(465);
         email.setSSLOnConnect(true);
         email.setDebug(true);
         email.setHostName("smtp.gmail.com");
         
-        email.addTo("jivkotodorov94@gmail.com");
+        email.addTo("boris.petrov88@abv.bg");
         email.setFrom("jivkotodorov94@gmail.com", "Me");
         email.setSubject("This is the subject");
         email.setMsg("Here is the picture you wanted, A-hole");
