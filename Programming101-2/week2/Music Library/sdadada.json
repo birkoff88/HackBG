@@ -1,0 +1,1 @@
+{"name": "test_playlist", "songs": [{"path": "sda", "album": "Highway to Hell", "title": "Highway to Hell", "artist": "AC/DC", "rating": 5, "length": 208, "bitrate": 128}, {"path": "sdb", "album": "Back in Black", "title": "Back in Black", "artist": "ACDC", "rating": 4, "length": 200, "bitrate": 256}]}
