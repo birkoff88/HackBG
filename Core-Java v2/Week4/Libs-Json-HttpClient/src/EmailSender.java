@@ -11,7 +11,8 @@ public class EmailSender {
         attachment.setPath("D:/2014-09-05 00.02.49.jpg");
         attachment.setDisposition(EmailAttachment.ATTACHMENT);
         attachment.setDescription("Picture of me");
-        attachment.setName("me");
+        attachment.setName("Me");
+
 
         // Create the email message
         MultiPartEmail email = new MultiPartEmail();
